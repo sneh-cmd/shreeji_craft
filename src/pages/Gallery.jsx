@@ -15,11 +15,11 @@ export default function Gallery() {
         </p>
       </div>
 
-      <div className="columns-2 gap-2 sm:gap-3 lg:columns-3 lg:gap-4">
+      <div className="columns-2 gap-2 sm:gap-3 lg:columns-4 lg:gap-3 xl:columns-5">
         {galleryImages.map((item) => (
           <figure
             key={item.id}
-            className="mb-2 break-inside-avoid overflow-hidden rounded-xl bg-white shadow-sm sm:mb-3 sm:rounded-2xl lg:mb-4 lg:rounded-3xl"
+            className="mb-2 break-inside-avoid overflow-hidden rounded-xl bg-white shadow-sm sm:mb-3 sm:rounded-2xl"
           >
             <img src={item.src} alt={item.alt} className="w-full" loading="lazy" />
           </figure>
