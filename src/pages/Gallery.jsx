@@ -16,22 +16,12 @@ export default function Gallery() {
       </div>
 
       <div className="columns-2 gap-2 sm:gap-3 lg:columns-3 lg:gap-4">
-        {galleryImages.map((item, index) => (
+        {galleryImages.map((item) => (
           <figure
             key={item.id}
             className="mb-2 break-inside-avoid overflow-hidden rounded-xl bg-white shadow-sm sm:mb-3 sm:rounded-2xl lg:mb-4 lg:rounded-3xl"
           >
-            <img
-              src={item.src}
-              alt={item.alt}
-              className={`w-full object-cover ${
-                index % 3 === 0
-                  ? 'aspect-[4/5]'
-                  : index % 3 === 1
-                    ? 'aspect-square'
-                    : 'aspect-[5/4]'
-              }`}
-            />
+            <img src={item.src} alt={item.alt} className="w-full" loading="lazy" />
           </figure>
         ))}
       </div>
