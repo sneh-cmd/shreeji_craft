@@ -29,7 +29,7 @@ export const products = [
   {
     id: "golden-bell-wall-plaque",
     name: "Golden Bell Wall Plaque",
-    price: 1499,
+    price: 300,
     category: "wall-decor",
     rating: 4.9,
     reviews: 18,
@@ -323,7 +323,7 @@ export const products = [
   {
     id: "desk-organizer",
     name: "Handmade Desk Organizer",
-    price: 999,
+    price: 150,
     category: "table-decor",
     rating: 4.6,
     reviews: 31,
@@ -344,7 +344,7 @@ export const products = [
   {
     id: "golden-pillar-vase",
     name: "Golden Peacock Pillar Vase",
-    price: 1099,
+    price: 130,
     category: "table-decor",
     rating: 4.6,
     reviews: 16,
@@ -365,7 +365,7 @@ export const products = [
   {
     id: "peacock-pillar-hanging",
     name: "Peacock Pillar Wall Hanging",
-    price: 1699,
+    price: 300,
     category: "traditional",
     rating: 4.8,
     reviews: 13,
@@ -386,7 +386,7 @@ export const products = [
   {
     id: "puja-wall-shelf",
     name: "Puja Wall Shelf",
-    price: 1599,
+    price: 500,
     category: "traditional",
     rating: 4.7,
     reviews: 19,
@@ -407,7 +407,7 @@ export const products = [
   {
     id: "sweet-home-hanging",
     name: "Sweet Home Wall Hanging",
-    price: 1199,
+    price: 300,
     category: "wall-decor",
     rating: 4.5,
     reviews: 22,
@@ -428,7 +428,7 @@ export const products = [
   {
     id: "table-decor-display",
     name: "Monk Table Decor Set",
-    price: 1799,
+    price: 450,
     category: "table-decor",
     rating: 4.6,
     reviews: 10,
